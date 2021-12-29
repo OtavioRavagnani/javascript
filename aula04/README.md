@@ -5,12 +5,12 @@
 - não podem ter espaços 
 - não podem ser paavaras reservadas ex: var 
 
-dicas: 
+° dicas: 
 - maiúsculas e minúsculas fazem diferença
 - tente escolher nomes coerentes para as variáveis 
 - evite se tornar um programador alfabeto ex: que da o nome de variaveis de n1 n2 n3 n4 
 
-tipos de data type: comando = typeof
+° tipos de data type: comando = typeof
 - 5 , 18 ,-12 , 0.5 , -15.9 , 3.14 , 8.0 = number (infinity , NaN) 
 - "google" , 'javaScript' , `maria` = string 
 - true , false = boolean 

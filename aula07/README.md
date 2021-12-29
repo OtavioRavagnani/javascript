@@ -29,7 +29,7 @@
 - var e = 6 * 2 / d     (2)
 - var f = b % e + 4 / e (3)
 
-° atribuição simples na mesma variavel:(Explicação:É o cauculo dentro da mesma ou em outra variavel) 
+° auto atribuição: (Explicação:É o cauculo dentro da mesma ou em outra variavel) 
 
 - var n = 3                 - simplificado:(Só pode ser usada na mesma variavel)
 
@@ -42,7 +42,17 @@
 
 ° OP Incremento:
 
-- var x = 5 
+- var x = 5          -simplificando:
+                     
+- x = x + 1 (6)       ++n ou n++
+- x = x - 1 (5)       --n ou n--
 
-- x = x + 1 (6)
-- x = x - 1 (5)
+
+
+
+
+
+
+
+
+

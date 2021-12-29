@@ -1,69 +1,67 @@
-operadores relacionais:
+#Operadores 2
 
-- 5 > 2 = true
-- 7 < 4 = false
-- 8 >= 8 = true
-- 9 <= 7 = false
-- 5 == 5 = true
-- 4 != 4 = false
-exemplos: 
-- preço >= 200.50 (O preço é maior ou igual a 200.50)
-- idade < 18 (A idade é menor que 18) 
-- curso == JavaScript (O curso é JavaScript)
-- n1 != n2 (o primeiro número é diferente do segundo número)
+°OP Relacionais:
 
-operadores relacionais ou de identidade:
+- 5 > 2 (true) 
+- 7 < 4 (false)
+- 8 >= 8 (true)
+- 9 <= 7 (false)
+- 5 == 5 (true)
+- 4 != 4 (false)
 
-- 5 == 5 true
-- 5 == '5' true
-- 5 === '5' false 
+- Exemplos: 
 
-operadores lógicos:
+- preço >= 200.50       // O preço é maior ou igual a 200.50
+- idade < 18            // A idade é menor do que 18 
+- curso == 'JavaScript' // O curso é JavaScript
+- n1 != n2              // n1 é diferente de n2 
 
-- ! (negação)
-- && (conjunção "e")
-- || (disjunção "ou")
+- Identidade:
 
-exemplos: 
+- 5 == 5    (true) = sao iguais(tem que ser igual do memo numero) 
+- 5 == '5'  (true) = sao iguais do mesmo valor (tem que ser do mesmo valor)
+- 5 === '5' (false) = sao de tipos diferentes  (tem que ser identicos de valor e tipo)
+- 5 === 5   (true) = são identicos do mesmo valor e numero
 
-- ! true = false (se algo não é true é false) 
-    false = true (se algo não é false é true) 
+°OP Logicos:
 
-ex: so fica certo se não for oq eu falei (qualquer canta DIFERENTE de azul)
+- ! (negação)    ex:(Quero uma caneta SO NAO PODE SER azul)
+- && (conjunção) ex:(Quero uma caneta azul E uma vermelha)
+- || (disjunção) ex:(Quero uma canea azul OU uma vermelha) 
 
-    
-- && (e) true + true = true 
-         true + false = false 
-         false + true = false 
-         false + false = false 
+- Negação: (Explicação: Dis não as coisas)
 
-ex: só fica certo se as duas canetas forem as que eu pedi (uma vermelha E uma azul)      
+- ! true -> false (Algo não verdadeiro é falso)
+  ! false -> true (Algo não falso é verdadeiro)
+  
+- Conjunção: (Explicação: Só esta certo se tiver as duas canetas)
 
+-true && false -> true   (consegui as duas canetas)
+-true && false -> false  (consegui apenas a caneta azul)
+-false && true -> false  (consegui apenas a vermelha)
+-false && false -> false (não consegui nem uma caneta) 
 
-- || (ou) true + true = true 
-          true + false = true 
-          false + true = true 
-          false + false = false        
+- disjunção: (Explicação: Só esta certo se tiver uma das canetas)
 
-ex: só fica certo se algumas das canetas for a certa (uma caneta azul OU vermelha)
+-true || true -> true    (consegui as duas canetas) 
+-true || false -> true   (consegui a caneta azul)
+-false || true -> true   (consegui a caneta vermelha)
+-false || false -> false (não consegui nenhuma caneta)
 
-ordem de precedencia dos operadores:
+- Exemplo:
 
-- aritimeticos () , ** , / (tem ordem de procedncia (ta na anotção passada) )
-- relacionais > , < , >= (nao tem ordem é o que vier primeiro)
-- logicos ! , && , || (tem ordem de procedencia)
+- idade >= 15 && idade <=17       // A idade esta entre 15 e 17
+- estado == 'RJ' || estado == 'SP'// O estado é RJ ou SP 
+- salário > 1500 && sexo != 'M'   // O salário é acima de 1500 e não é homem
 
-ex:
+° Precedência:
+- (), ** , / ... (Aritimeticos)
+- >, <, >= ... (Relacionais)
+-!  (Logicos)
+-&& (Logicos)
+-|| (Logicos)
 
-- idade >= 15 && idade <= 17 (a idade esta entre 15 e 17)
-- estado == RJ || estado == SP (o estado esta entre RJ e SP)
-- salario >1500 && sexo != M (o salario é acima de 1500 e não é um homem )  
+°OP Ternario:
 
-operador ternario:
+- 
 
-- ?
-- :
-
-ex :
-
-- média >= 7.0 ? "aprovado" : "reprovado"

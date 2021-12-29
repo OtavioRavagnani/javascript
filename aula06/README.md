@@ -1,13 +1,13 @@
---Tratamento de dados:
+#Tratamento de dados:
 
-- Comentarios:
-:
--/*comentarios em CSS*/
+° Comentarios:
+
+/*comentarios em CSS*/
 <!--comentario em HTML-->
 // comentario em JavaScript
 
--- Simbolo de +:
-
+° Simbolo de +:
+ 
 - conctenação:
 
 - Ele vai passar a ser Concatenação quando esta assim (string + string)
@@ -26,13 +26,14 @@ Ex:
     var s = n1 + n2 
     window.alert('A soma dos valores é' + s)
     
-- Conversores de strings : 
+ 
+° Conversores de strings : 
 Number.parseInt(n) = para numeros inteiros 
 Number.parseFloat(n) = para numeros reais ou quebrados 
 Number(n) = o computador que decide se é real ou inteiro (SE VIRA !)
 String(n) = converte de number para string
 
--Formatando strings:
+° Formatando strings:
 
 var s = 'JavaScript'
 
@@ -43,7 +44,7 @@ s.length // quantos caracteres a string tem
 s.toUpperCase() //tudo para maiúsculas 
 s.toLowerCase() //tudo pra minúsculas 
 
--Formatando numeos:
+° Formatando numeos:
 
 var n1 = 1543.5
 n1
