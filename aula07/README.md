@@ -1,38 +1,48 @@
-Ordem de precedência: (o que voce resolve primeiro dentro das contas)
--()
--**
--*,/,%
--+,-
+#Operadores:
 
-exemplos de atribuição simples:
+°OP Aritméticos:
 
-var a = 5 + 3 = 8 
-var b = a % 5 = 3
-var c = 5 * b ** 2 = 45
-var d = 10 - a / 2 = 6
-var e = 6 * 2 / d = 2
-var f = b % e + 4 / e =3
+- 5 + 2 = 7 (soma)
 
-auto-atribuição: 
+- 5 - 2 = 3 (subtração)
 
--var n = 3
+- 5 * 2 = 10 (multiplicação)
 
--n = n + 4 = 7
--n = n - 5 = 2
--n = n * 4 = 8
--n = n / 2 = 4
--n = n ** 2 = 16
--n = n % 5 = 1
+- 5 / 2 = 2,4 (divisão)
 
-simpficado: 
+- 5 % 2 = 1 (resto da divisão inteira) 
 
-ex= so pode ser usado se for para a mesma variavel
+- 5 ** 2 = 25 (elevado)
 
--n += (algum numero) 
+° Ordem de precedêndica:(Explicação: ordem de resolução)
+- ()
+- **
+- * , / , %
+- + , -
 
-incremento 
+° OP atribuição: (Explicação: O de uma varivel pode ser guardado e ultilizado em outras variaveis tipo a var b)
 
-- var x = 5
+- var a = 5 + 3         (8)
+- var b = a % 5         (3)
+- var c = 5 * b ** 2    (45)
+- var d = 10 - a / 2    (6)
+- var e = 6 * 2 / d     (2)
+- var f = b % e + 4 / e (3)
 
--x = x + 1 ou x ++
--x = x - 1 ou x --
+° atribuição simples na mesma variavel:(Explicação:É o cauculo dentro da mesma ou em outra variavel) 
+
+- var n = 3                 - simplificado:(Só pode ser usada na mesma variavel)
+
+- n = n + 4  (7)            - n += 4
+- n = n - 5  (2)            - n -= 5
+- n = n * 4  (8)            - n *= 4 
+- n = n / 2  (4)            - n /= 2
+- n = n ** 2 (16)           - n**= 2
+- n = n % 5  (1)            - n %= 5
+
+° OP Incremento:
+
+- var x = 5 
+
+- x = x + 1 (6)
+- x = x - 1 (5)
