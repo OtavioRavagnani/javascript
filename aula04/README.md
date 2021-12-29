@@ -1,4 +1,4 @@
-regras de variaveis:
+# regras de variaveis:
 - podem comerçar com letra, & ou_
 - não podem começar com números 
 - é possivel usar acentos e símbolos
