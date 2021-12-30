@@ -11,18 +11,18 @@
 
 ° Selecionando:
 
-- Por marca:(Pega as tags por nome (Ex:p,h1,div) e pode selecionar mais de uma tag)
+- Por marca:(Pega as tags por nome (Ex:p,h1,div) e pode selecionar mais de um objeto)
 - getElementByTagName()
 
-- Por ID:()
+- Por ID:(Pega elementos marcados com a identificação ID)
 -getElementByid()
 
-- Por nome
+- Por nome:(Pegas elementos com a identificação por NAME)
 -getElementsByTagName
 
-- Por classe 
+- Por classe:(Pega elementos com a identificação por CLASS)
 -getElementsByClassName()
 
-- Por seletor
+- Por seletor:(Pega qual quer tipo de arquivo e quando é Id = # class = .)
 -querySelector()
 -querySelectorAll()
