@@ -1,15 +1,15 @@
 # Introdução ao DOM
 
-° Arvore DOM:
+1º Arvore DOM:
 
 - window
 - location, document, history
 - html
-- head,               body
-- meta, title   | h1, p, p, div
--                   strong
+- head, body
+- meta, title   | h1, p, p, div, strong
+                   
 
-° Selecionando:
+2º Selecionando:
 
 - Por marca:(Pega as tags por nome (Ex:p,h1,div) e pode selecionar mais de um objeto)
 - getElementByTagName()

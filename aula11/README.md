@@ -1,5 +1,5 @@
-#Condições
-° Condições:
+# Condições
+ 1º Condições:
 
 - ele nunca para de seguir a linha ele sempre anda reto mas pode ser filtrada.
 
@@ -15,7 +15,7 @@
    
    }
    
-° tipos de condição:
+2º tipos de condição:
 
 - condição simples:
 

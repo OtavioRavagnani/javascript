@@ -1,5 +1,5 @@
 # Eventos DOM
-° Eventos DOM
+1º Eventos DOM
 
 - Exemplo:
 
@@ -8,7 +8,7 @@
 - Explicação: Os mais comuns eventos DOM são os eventos de mouse (mouseenter, mousemove, mousedown, mouseup, click, mouseout). 
 - link: https://developer.mozilla.org/pt-BR/docs/Web/Events
 
-° Função:
+2º Função:
 
 - O que é: É um conjuto de codigos que só vão ser executadas apenas quando um evento ocorer.
 
