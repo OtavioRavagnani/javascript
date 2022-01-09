@@ -21,7 +21,7 @@
 
  if (condição){true}
  
-- condição normal:
+- condição composta:
 
  if(condição) {true}else {false} 
  

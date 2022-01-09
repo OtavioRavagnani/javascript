@@ -1,23 +1,23 @@
-var agora = new Date()
-var diaSem = agora.getDay()
+var agora = new Date() 
+var diaSen = agora.getDay()
 
 /*
-0 = DOMINGO
-1 = SEGUNDA
-2 = TERÇA 
-3 = QUARTA
-4 = QUINTA
-5 = SEXTA 
-6 = SABADO
+0 = Domingo
+1 = Segunda 
+2 = Terça 
+3 = Quarta 
+4 = Quinta 
+5 = Sexta 
+6 = Sabado 
 */
 
-//console.log(diaSem)
+console.log(diaSen)
 
-switch(diaSem) {
+switch(diaSen){
     case 0:
         console.log('Domingo')
         break
-    case 1: 
+    case 1:
         console.log('Segunda')
         break
     case 2:
@@ -35,4 +35,7 @@ switch(diaSem) {
     case 6:
         console.log('Sabado')
         break
-} 
+    default:
+        console.log('[ERRO]Dia invalido')
+        break
+    }
