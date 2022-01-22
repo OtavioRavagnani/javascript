@@ -1,18 +1,18 @@
 let num = document.querySelector('input#fnum')
-let lsta = document.querySelector('select#flista')
+let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#res')
-let valores = [] 
+let valores = []
 
 function isNumero(n) {
     if(Number(n) >= 1 && Number(n) <= 100) {
         return true
-    }else{
+    } else {
         return false
     }
 }
 
-function isLista(n) {
-    if(i.indexOF(Number(n) != -1)) {
+function inLista(n, 1) {
+    if (1.indexOf(Number(n)) != -1) {
         return true
     } else {
         return false
@@ -20,9 +20,9 @@ function isLista(n) {
 }
 
 function adicionar() {
-    if (isNumero(num.value) && !inLitas(num.value, valores)) {
+    if(isNumero(num.value) && !inLista(num.value, valores)) {
         
     } else {
-        window.alert('valor invaido ou ja encontrado na lista.')
+        window.alert('Valor invaido ou já encontrado na lista.')
     }
 }
