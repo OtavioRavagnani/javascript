@@ -49,8 +49,3 @@ s.toLowerCase() //tudo pra minúsculas
 var n1 = 1543.5
 n1
 n1.toFixed(2) //deixa o numero com duas casas
-
-
-
-
-
